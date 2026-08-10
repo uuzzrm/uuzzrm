@@ -5,33 +5,31 @@
 <p align="center">
   <a href="https://prysai.com"><strong>Prysai Lab</strong></a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://github.com/uuzzrm?tab=repositories">Repositories</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/uuzzrm?tab=stars">Research trail</a>
+  <a href="https://github.com/uuzzrm/uuzzrm#core-projects">Core projects</a>
 </p>
 
 ## About
 
-I explore how AI agents move from impressive demos to useful, inspectable systems in real developer workflows.
-
-My current focus:
-
-- agent tooling and local developer workflows
-- RAG evaluation, tracing, and regression testing
-- MCP, browser automation, and tool-using agents
-- Codex skills, task design, and evidence-driven delivery
+I build and inspect AI systems that hold up beyond the demo: agents, retrieval, evaluation, and tool use in real developer workflows.
 
 ## Current direction
 
-I am studying the full agent engineering loop: choose the right model, provide the right context, connect tools safely, evaluate behavior, and turn successful experiments into repeatable workflows.
+I follow the full agent engineering loop:
+
+- choose the right model and context
+- connect tools safely and make behavior observable
+- evaluate quality, regressions, and failure modes
+- turn useful experiments into repeatable workflows
 
 The goal is simple: fewer impressive demos, more systems that can be tested, understood, and improved.
 
 ## Building with Prysai
 
-[Prysai](https://prysai.com) is the home for my ongoing product experiments, research notes, and practical work around AI and developer tools.
+[Prysai](https://prysai.com) is the home for product experiments and practical work around AI systems and developer tools. The emphasis is on small, testable pieces that can be inspected, measured, and reused.
 
 ## Open-source contributions
 
-Public pull requests merged upstream — a record of projects where I have contributed code, documentation, packaging, performance work, or privacy controls.
+Six upstream projects, seven merged pull requests — documentation, packaging, compatibility, performance, privacy, and UX fixes that are now part of other projects.
 
 <table>
   <tr>
@@ -83,38 +81,56 @@ Maintenance format for future entries:
 Only add a row after the upstream PR shows a merged state.
 -->
 
-## Research trail
+## Core projects
 
-The repositories below are working copies and study paths for upstream projects I am exploring or contributing to:
+A compact working set of upstream projects I currently study, use, or contribute to. They are selected for technical leverage, not repository size or star count.
 
-| Area | Reading list |
-| --- | --- |
-| Agent frameworks | [Google ADK](https://github.com/uuzzrm/adk-python) · [PydanticAI](https://github.com/uuzzrm/pydantic-ai) · [FastMCP](https://github.com/uuzzrm/fastmcp) |
-| RAG and evaluation | [RAGOps](https://github.com/uuzzrm/ragops) · [Opik](https://github.com/uuzzrm/opik) · [Promptfoo](https://github.com/uuzzrm/promptfoo) |
-| Developer workflows | [Jupyter AI](https://github.com/uuzzrm/jupyter-ai) · [Browser Use](https://github.com/uuzzrm/browser-use) · [Spec Kitty](https://github.com/uuzzrm/spec-kitty) |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/thangldw/ragops">RAGOps</a></strong><br />
+      <sub>Evaluation infrastructure</sub><br /><br />
+      Offline regression tests and explainable release gates for RAG systems and AI agents.<br /><br />
+      <a href="https://github.com/thangldw/ragops">upstream</a> · <a href="https://github.com/uuzzrm/ragops">working fork</a>
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/pydantic/pydantic-ai">PydanticAI</a></strong><br />
+      <sub>Typed agent runtime</sub><br /><br />
+      Explicit dependencies, tools, structured outputs, and validation for production-minded agents.<br /><br />
+      <a href="https://github.com/pydantic/pydantic-ai">upstream</a> · <a href="https://github.com/uuzzrm/pydantic-ai">working fork</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/PrefectHQ/fastmcp">FastMCP</a></strong><br />
+      <sub>Tool connectivity</sub><br /><br />
+      A practical protocol layer for building and connecting MCP servers and clients.<br /><br />
+      <a href="https://github.com/PrefectHQ/fastmcp">upstream</a> · <a href="https://github.com/uuzzrm/fastmcp">working fork</a>
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/promptfoo/promptfoo">Promptfoo</a></strong><br />
+      <sub>Quality and safety gates</sub><br /><br />
+      Evaluation, comparison, and red-teaming for prompts, agents, and RAG pipelines.<br /><br />
+      <a href="https://github.com/promptfoo/promptfoo">upstream</a> · <a href="https://github.com/uuzzrm/promptfoo">working fork</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/browser-use/browser-use">Browser Use</a></strong><br />
+      <sub>Real-world execution</sub><br /><br />
+      Browser control as a practical interface for tool-using agents and workflow automation.<br /><br />
+      <a href="https://github.com/browser-use/browser-use">upstream</a> · <a href="https://github.com/uuzzrm/browser-use">working fork</a>
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/Priivacy-ai/spec-kitty">Spec Kitty</a></strong><br />
+      <sub>Developer workflow</sub><br /><br />
+      Spec-driven development, worktrees, and repeatable workflows for serious software projects.<br /><br />
+      <a href="https://github.com/Priivacy-ai/spec-kitty">upstream</a> · <a href="https://github.com/uuzzrm/spec-kitty">working fork</a>
+    </td>
+  </tr>
+</table>
 
-<sub>These are intentionally presented as research and contribution paths, not as original projects.</sub>
-
-<details>
-  <summary><strong>What I am exploring</strong></summary>
-
-  <br />
-
-  <table>
-    <tr>
-      <td><strong>Agent systems</strong><br /><sub>How agents use context, tools, memory, and feedback.</sub></td>
-      <td><strong>RAG and evaluation</strong><br /><sub>How to test retrieval, quality, regressions, and failure modes.</sub></td>
-    </tr>
-    <tr>
-      <td><strong>Developer experience</strong><br /><sub>How local workflows make agent work easier to inspect and repeat.</sub></td>
-      <td><strong>Codex workflows</strong><br /><sub>How tasks become bounded, verifiable, and useful in practice.</sub></td>
-    </tr>
-  </table>
-</details>
-
-## About the repository list
-
-This profile includes a mix of experiments, learning repositories, and forks used for study and upstream contribution. The repository list is part of an active research process—not a claim that every repository is an original project.
+<sub>These links point to upstream projects and my working forks. They are study and contribution paths, not claims of original ownership.</sub>
 
 ## Current interests
 
