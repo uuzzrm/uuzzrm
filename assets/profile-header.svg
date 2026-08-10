@@ -1,34 +1,37 @@
-<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Ruiming Zhao at Prysai — AI agents, developer tools, reliable workflows</title>
-  <desc id="desc">A black and white Prysai-inspired profile banner with the official geometric wordmark, a cool grid, and restrained glass panels.</desc>
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ruiming Zhao — Prysai AI systems and developer tools</title>
+  <desc id="desc">A Prysai-inspired digital business card for Ruiming Zhao, with a monochrome wordmark, a cool grid, and restrained blue glass light.</desc>
   <defs>
-    <linearGradient id="surface" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+    <linearGradient id="surface" x1="24" y1="24" x2="1176" y2="336" gradientUnits="userSpaceOnUse">
       <stop stop-color="#07090D"/>
       <stop offset="0.58" stop-color="#0B0F18"/>
       <stop offset="1" stop-color="#111A2B"/>
     </linearGradient>
-    <radialGradient id="blueWash" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 64) rotate(137) scale(360 260)">
+    <radialGradient id="blueWash" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1018 90) rotate(138) scale(390 270)">
       <stop stop-color="#315EA8" stop-opacity="0.42"/>
       <stop offset="1" stop-color="#315EA8" stop-opacity="0"/>
     </radialGradient>
     <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="24"/>
+      <feGaussianBlur stdDeviation="26"/>
     </filter>
+    <clipPath id="cardClip">
+      <rect x="24" y="24" width="1152" height="312" rx="24"/>
+    </clipPath>
   </defs>
 
-  <rect width="1200" height="340" fill="url(#surface)"/>
-  <rect width="1200" height="340" fill="url(#blueWash)"/>
-  <circle cx="1035" cy="45" r="88" fill="#6D9BE8" fill-opacity="0.12" filter="url(#softGlow)"/>
+  <rect width="1200" height="360" fill="#05070A"/>
+  <rect x="24" y="24" width="1152" height="312" rx="24" fill="url(#surface)" stroke="#DCE7F8" stroke-opacity="0.28"/>
 
-  <g opacity="0.15" stroke="#DCE7F8" stroke-width="1">
-    <path d="M0 40H1200M0 100H1200M0 160H1200M0 220H1200M0 280H1200"/>
-    <path d="M60 0V340M140 0V340M220 0V340M300 0V340M380 0V340M460 0V340M540 0V340M620 0V340M700 0V340M780 0V340M860 0V340M940 0V340M1020 0V340M1100 0V340"/>
+  <g clip-path="url(#cardClip)">
+    <rect x="24" y="24" width="1152" height="312" fill="url(#blueWash)"/>
+    <circle cx="1060" cy="80" r="110" fill="#6D9BE8" fill-opacity="0.10" filter="url(#softGlow)"/>
+    <g opacity="0.14" stroke="#DCE7F8" stroke-width="1">
+      <path d="M24 80H1176M24 136H1176M24 192H1176M24 248H1176M24 304H1176"/>
+      <path d="M88 24V336M160 24V336M232 24V336M304 24V336M376 24V336M448 24V336M520 24V336M592 24V336M664 24V336M736 24V336M808 24V336M880 24V336M952 24V336M1024 24V336M1096 24V336"/>
+    </g>
   </g>
 
-  <rect x="54" y="34" width="1092" height="82" rx="18" fill="#0A0E16" fill-opacity="0.72" stroke="#DCE7F8" stroke-opacity="0.26"/>
-  <rect x="70" y="50" width="1060" height="50" rx="12" fill="#FFFFFF" fill-opacity="0.035"/>
-
-  <svg x="86" y="48" width="180" height="54" viewBox="570 875 885 260" aria-label="Prysai wordmark">
+  <svg x="72" y="49" width="190" height="56" viewBox="570 875 885 260" aria-label="Prysai wordmark">
     <g fill="#FFFFFF">
       <path d="M708.35,1067.33c-42.72,0-77.48-34.76-77.48-77.48h36.83c0,22.42,18.24,40.66,40.66,40.66S749,1012.26,749,989.84h36.83C785.83,1032.57,751.07,1067.33,708.35,1067.33z"/>
       <rect x="630.86" y="989.84" width="36.83" height="97.27"/>
@@ -42,19 +45,26 @@
       <path d="M1421.13,919.25c0 10.47-7.12 18.01-17.38 18.01s-17.38-7.54-17.38-18.01s7.12-18.01,17.38-18.01S1421.13,908.78,1421.13,919.25z M1387.62,1063.94V951.29h32.25v112.66h-32.25z"/>
     </g>
   </svg>
-  <text x="1040" y="78" fill="#C9D8F2" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2.2" text-anchor="end">AI / IT STUDIO</text>
 
-  <text x="76" y="157" fill="#9EB7DF" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">RUIMING ZHAO / UZZRM</text>
-  <text x="76" y="210" fill="#FFFFFF" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="42" font-weight="700" letter-spacing="-1.2">AI systems with</text>
-  <text x="76" y="258" fill="#FFFFFF" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="42" font-weight="700" letter-spacing="-1.2">practical discipline.</text>
-  <text x="76" y="294" fill="#C7CFDB" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="16" font-weight="500">AI agents · developer tools · reliable workflows</text>
+  <text x="1128" y="78" fill="#C9D8F2" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5" text-anchor="end">AI / IT STUDIO</text>
+  <path d="M72 120H1128" stroke="#DCE7F8" stroke-opacity="0.20"/>
 
-  <g transform="translate(830 151)">
-    <rect width="300" height="130" rx="16" fill="#0D131F" fill-opacity="0.64" stroke="#C8D8F2" stroke-opacity="0.24"/>
-    <text x="22" y="28" fill="#94B3E5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5">WORKING FOCUS</text>
-    <path d="M22 43H278" stroke="#C8D8F2" stroke-opacity="0.2"/>
-    <text x="22" y="70" fill="#FFFFFF" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="14" font-weight="700">01  CONTEXT</text>
-    <text x="22" y="94" fill="#FFFFFF" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="14" font-weight="700">02  TOOLS</text>
-    <text x="22" y="118" fill="#FFFFFF" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="14" font-weight="700">03  EVIDENCE</text>
-  </g>
+  <text x="72" y="157" fill="#9EB7DF" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="2.0">RUIMING ZHAO / UZZRM</text>
+  <text x="72" y="208" fill="#FFFFFF" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="41" font-weight="700" letter-spacing="-1.1">AI systems with</text>
+  <text x="72" y="252" fill="#FFFFFF" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="41" font-weight="700" letter-spacing="-1.1">practical discipline.</text>
+  <text x="72" y="286" fill="#C7CFDB" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="14" font-weight="500">AI agents · developer tools · reliable workflows</text>
+
+  <path d="M765 144V303" stroke="#DCE7F8" stroke-opacity="0.20"/>
+  <text x="822" y="157" fill="#94B3E5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1.6">WORKING FOCUS</text>
+
+  <text x="822" y="190" fill="#7F9FD2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">01</text>
+  <text x="852" y="190" fill="#FFFFFF" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="14" font-weight="700">AI AGENTS</text>
+  <text x="822" y="220" fill="#7F9FD2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">02</text>
+  <text x="852" y="220" fill="#FFFFFF" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="14" font-weight="700">DEVELOPER TOOLS</text>
+  <text x="822" y="250" fill="#7F9FD2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">03</text>
+  <text x="852" y="250" fill="#FFFFFF" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="14" font-weight="700">RELIABLE DELIVERY</text>
+
+  <path d="M822 273H1128" stroke="#C8D8F2" stroke-opacity="0.18"/>
+  <text x="822" y="300" fill="#C7CFDB" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.1">PRYSAI.COM</text>
+  <text x="1128" y="300" fill="#C7CFDB" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.1" text-anchor="end">GITHUB.COM/UUZZRM</text>
 </svg>

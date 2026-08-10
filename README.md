@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/uuzzrm/uuzzrm/3961098/assets/profile-header.svg" alt="Ruiming Zhao at Prysai — AI agents, developer tools, reliable workflows" width="100%" />
+  <img src="https://raw.githubusercontent.com/uuzzrm/uuzzrm/main/assets/profile-header.svg" alt="Ruiming Zhao — Prysai AI systems and developer tools" width="100%" />
 </div>
 
 <p align="center">
@@ -7,16 +7,6 @@
   <a href="https://github.com/uuzzrm?tab=repositories">Repositories</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://github.com/uuzzrm?tab=stars">Research trail</a>
 </p>
-
-<table align="center">
-  <tr>
-    <td width="33%" align="center"><strong>AI agents</strong><br /><sub>tool use · memory · workflows</sub></td>
-    <td width="33%" align="center"><strong>Developer tools</strong><br /><sub>local systems · automation · MCP</sub></td>
-    <td width="33%" align="center"><strong>Reliable delivery</strong><br /><sub>evaluation · tracing · evidence</sub></td>
-  </tr>
-</table>
-
-<p align="center"><strong>AI systems with practical engineering discipline.</strong><br /><sub>Context · tools · evaluation · delivery</sub></p>
 
 ## About
 
