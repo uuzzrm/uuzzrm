@@ -1,0 +1,23 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ruiming Zhao — AI agents, developer tools, reliable workflows</title>
+  <desc id="desc">A clean editorial profile banner with a grid, a red accent, and the words AI agents, developer tools, reliable workflows.</desc>
+  <rect width="1200" height="300" fill="#F7F7F8"/>
+  <g opacity="0.7" stroke="#D9DADD" stroke-width="1">
+    <path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200"/>
+    <path d="M80 0V300M160 0V300M240 0V300M320 0V300M400 0V300M480 0V300M560 0V300M640 0V300M720 0V300M800 0V300M880 0V300M960 0V300M1040 0V300M1120 0V300"/>
+  </g>
+  <rect x="0" y="0" width="14" height="300" fill="#E4002B"/>
+  <rect x="80" y="60" width="28" height="28" fill="#E4002B"/>
+  <path d="M80 120H520" stroke="#111318" stroke-width="2"/>
+  <text x="80" y="48" fill="#5D6068" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2.5">PROFILE / 01</text>
+  <text x="80" y="171" fill="#111318" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="54" font-weight="750" letter-spacing="-2">RUIMING ZHAO</text>
+  <text x="80" y="211" fill="#363941" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="22" font-weight="500">AI agents · developer tools · reliable workflows</text>
+  <text x="80" y="255" fill="#5D6068" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="14" letter-spacing="1.2">CONTEXT / TOOLS / EVALUATION / DELIVERY</text>
+  <g transform="translate(930 48)">
+    <text x="0" y="0" fill="#5D6068" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.6">BUILDING IN PUBLIC</text>
+    <path d="M0 24H190" stroke="#111318" stroke-width="1"/>
+    <text x="0" y="72" fill="#111318" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700">01 / AGENTS</text>
+    <text x="0" y="105" fill="#111318" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700">02 / TOOLS</text>
+    <text x="0" y="138" fill="#111318" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700">03 / SYSTEMS</text>
+  </g>
+</svg>
