@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/uuzzrm/uuzzrm/master/assets/profile-header.svg" alt="Ruiming Zhao — AI agents, developer tools, reliable workflows" width="100%" />
+  <img src="https://raw.githubusercontent.com/uuzzrm/uuzzrm/main/assets/profile-header.svg" alt="Ruiming Zhao — AI agents, developer tools, reliable workflows" width="100%" />
 </div>
 
 <p align="center">
@@ -38,6 +38,18 @@ The goal is simple: fewer impressive demos, more systems that can be tested, und
 ## Building with Prysai
 
 [Prysai](https://prysai.com) is the home for my ongoing product experiments, research notes, and practical work around AI and developer tools.
+
+## Research trail
+
+The repositories below are working copies and study paths for upstream projects I am exploring or contributing to:
+
+| Area | Reading list |
+| --- | --- |
+| Agent frameworks | [Google ADK](https://github.com/uuzzrm/adk-python) · [PydanticAI](https://github.com/uuzzrm/pydantic-ai) · [FastMCP](https://github.com/uuzzrm/fastmcp) |
+| RAG and evaluation | [RAGOps](https://github.com/uuzzrm/ragops) · [Opik](https://github.com/uuzzrm/opik) · [Promptfoo](https://github.com/uuzzrm/promptfoo) |
+| Developer workflows | [Jupyter AI](https://github.com/uuzzrm/jupyter-ai) · [Browser Use](https://github.com/uuzzrm/browser-use) · [Spec Kitty](https://github.com/uuzzrm/spec-kitty) |
+
+<sub>These are intentionally presented as research and contribution paths, not as original projects.</sub>
 
 <details>
   <summary><strong>What I am exploring</strong></summary>
