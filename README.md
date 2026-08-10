@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/uuzzrm/uuzzrm/main/assets/profile-header.svg" alt="Ruiming Zhao — AI agents, developer tools, reliable workflows" width="100%" />
+  <img src="https://raw.githubusercontent.com/uuzzrm/uuzzrm/master/assets/profile-header.svg" alt="Ruiming Zhao — AI agents, developer tools, reliable workflows" width="100%" />
 </div>
 
 <p align="center">
