@@ -1,0 +1,253 @@
+{
+  "owner": "uuzzrm",
+  "metric": "total stars received by tracked public repositories",
+  "history": [
+    {
+      "date": "2026-08-10",
+      "total_stars": 7,
+      "repository_count": 47
+    }
+  ],
+  "latest": {
+    "date": "2026-08-10",
+    "total_stars": 7,
+    "repository_count": 47,
+    "repositories": [
+      {
+        "full_name": "uuzzrm/adk-python",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/ag2",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/agent-framework",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/agno",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/ai",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/anthropic-sdk-python",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/browser-use",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/chroma",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/continue",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/datasets",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/elevenlabs-python",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/EvalRepro",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/fastmcp",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/gitgalaxy",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/graphiti",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/jupyter-ai",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/kona",
+        "stars": 7,
+        "fork": false
+      },
+      {
+        "full_name": "uuzzrm/kubeintellect",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/langchain",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/langchainjs",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/langfuse-js",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/langgraph",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/langwatch",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/llama_index",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/LLMs-from-scratch",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/mastra",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/mem0",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/MiniSearch",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/nanobot",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/open-webui",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/openai-agents-python",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/OpenHands",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/opik",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/optuna",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/pr-agent",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/promptfoo",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/pydantic-ai",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/ragops",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/rtk",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/sandbox-sdk",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/skypilot",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/smolagents",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/spec-kitty",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/stagehand",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/typescript-sdk",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/uuzzrm",
+        "stars": 0,
+        "fork": false
+      },
+      {
+        "full_name": "uuzzrm/xskill",
+        "stars": 0,
+        "fork": true
+      }
+    ]
+  }
+}

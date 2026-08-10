@@ -1,0 +1,41 @@
+name: Update account star history
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Collect repository stars and render charts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_account_stars.py
+
+      - name: Commit changed history
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- data/account-stars.json assets/account-stars-light.svg assets/account-stars-dark.svg; then
+            echo "No account star changes to commit."
+            exit 0
+          fi
+
+          git add data/account-stars.json assets/account-stars-light.svg assets/account-stars-dark.svg
+          git commit -m "chore: update account star history"
+          git push

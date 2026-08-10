@@ -132,6 +132,20 @@ A compact working set of upstream projects I currently study, use, or contribute
 
 <sub>These links point to upstream projects and my working forks. They are study and contribution paths, not claims of original ownership.</sub>
 
+## Account star history
+
+This tracks the total stars received by my public repositories over time. It is an account-level view, not the star count of any single project.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/uuzzrm/uuzzrm/main/assets/account-stars-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/uuzzrm/uuzzrm/main/assets/account-stars-light.svg" />
+    <img src="https://raw.githubusercontent.com/uuzzrm/uuzzrm/main/assets/account-stars-light.svg" alt="uuzzrm account repository star history" width="100%" />
+  </picture>
+</p>
+
+<sub>All public repositories · forks count only their own stars · updated daily by <a href="https://github.com/uuzzrm/uuzzrm/actions/workflows/update-account-stars.yml">GitHub Actions</a>.</sub>
+
 ## Current interests
 
 `AI Agents` · `RAG` · `LLM Evaluation` · `MCP` · `Developer Tools` · `Codex Workflows`
