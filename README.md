@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/uuzzrm/uuzzrm/main/assets/profile-header.svg" alt="Ruiming Zhao — AI agents, developer tools, reliable workflows" width="100%" />
+  <img src="https://raw.githubusercontent.com/uuzzrm/uuzzrm/main/assets/profile-header.svg" alt="Ruiming Zhao at Prysai — AI agents, developer tools, reliable workflows" width="100%" />
 </div>
 
 <p align="center">
-  <a href="https://prysai.com">Prysai</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://prysai.com"><strong>Prysai Lab</strong></a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://github.com/uuzzrm?tab=repositories">Repositories</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://github.com/uuzzrm?tab=stars">Research trail</a>
 </p>
@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-<p align="center"><strong>Exploring the space between a model demo and a maintainable system.</strong><br /><sub>Context · tools · evaluation · delivery</sub></p>
+<p align="center"><strong>AI systems with practical engineering discipline.</strong><br /><sub>Context · tools · evaluation · delivery</sub></p>
 
 ## About
 

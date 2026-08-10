@@ -1,23 +1,60 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Ruiming Zhao — AI agents, developer tools, reliable workflows</title>
-  <desc id="desc">A clean editorial profile banner with a grid, a red accent, and the words AI agents, developer tools, reliable workflows.</desc>
-  <rect width="1200" height="300" fill="#F7F7F8"/>
-  <g opacity="0.7" stroke="#D9DADD" stroke-width="1">
-    <path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200"/>
-    <path d="M80 0V300M160 0V300M240 0V300M320 0V300M400 0V300M480 0V300M560 0V300M640 0V300M720 0V300M800 0V300M880 0V300M960 0V300M1040 0V300M1120 0V300"/>
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ruiming Zhao at Prysai — AI agents, developer tools, reliable workflows</title>
+  <desc id="desc">A black and white Prysai-inspired profile banner with the official geometric wordmark, a cool grid, and restrained glass panels.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07090D"/>
+      <stop offset="0.58" stop-color="#0B0F18"/>
+      <stop offset="1" stop-color="#111A2B"/>
+    </linearGradient>
+    <radialGradient id="blueWash" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 64) rotate(137) scale(360 260)">
+      <stop stop-color="#315EA8" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#315EA8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#surface)"/>
+  <rect width="1200" height="340" fill="url(#blueWash)"/>
+  <circle cx="1035" cy="45" r="88" fill="#6D9BE8" fill-opacity="0.12" filter="url(#softGlow)"/>
+
+  <g opacity="0.15" stroke="#DCE7F8" stroke-width="1">
+    <path d="M0 40H1200M0 100H1200M0 160H1200M0 220H1200M0 280H1200"/>
+    <path d="M60 0V340M140 0V340M220 0V340M300 0V340M380 0V340M460 0V340M540 0V340M620 0V340M700 0V340M780 0V340M860 0V340M940 0V340M1020 0V340M1100 0V340"/>
   </g>
-  <rect x="0" y="0" width="14" height="300" fill="#E4002B"/>
-  <rect x="80" y="60" width="28" height="28" fill="#E4002B"/>
-  <path d="M80 120H520" stroke="#111318" stroke-width="2"/>
-  <text x="80" y="48" fill="#5D6068" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2.5">PROFILE / 01</text>
-  <text x="80" y="171" fill="#111318" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="54" font-weight="750" letter-spacing="-2">RUIMING ZHAO</text>
-  <text x="80" y="211" fill="#363941" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="22" font-weight="500">AI agents · developer tools · reliable workflows</text>
-  <text x="80" y="255" fill="#5D6068" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="14" letter-spacing="1.2">CONTEXT / TOOLS / EVALUATION / DELIVERY</text>
-  <g transform="translate(930 48)">
-    <text x="0" y="0" fill="#5D6068" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.6">BUILDING IN PUBLIC</text>
-    <path d="M0 24H190" stroke="#111318" stroke-width="1"/>
-    <text x="0" y="72" fill="#111318" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700">01 / AGENTS</text>
-    <text x="0" y="105" fill="#111318" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700">02 / TOOLS</text>
-    <text x="0" y="138" fill="#111318" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700">03 / SYSTEMS</text>
+
+  <rect x="54" y="34" width="1092" height="82" rx="18" fill="#0A0E16" fill-opacity="0.72" stroke="#DCE7F8" stroke-opacity="0.26"/>
+  <rect x="70" y="50" width="1060" height="50" rx="12" fill="#FFFFFF" fill-opacity="0.035"/>
+
+  <svg x="86" y="48" width="180" height="54" viewBox="570 875 885 260" aria-label="Prysai wordmark">
+    <g fill="#FFFFFF">
+      <path d="M708.35,1067.33c-42.72,0-77.48-34.76-77.48-77.48h36.83c0,22.42,18.24,40.66,40.66,40.66S749,1012.26,749,989.84h36.83C785.83,1032.57,751.07,1067.33,708.35,1067.33z"/>
+      <rect x="630.86" y="989.84" width="36.83" height="97.27"/>
+      <circle cx="598.09" cy="1068.13" r="19.21"/>
+      <path d="M689.96,893.97c-52.86,0-95.87,43.01-95.87,95.87h36.83c0-32.56,26.49-59.05,59.04-59.05c32.56,0,59.05,26.49,59.05,59.05l31.49-31.49C767.43,920.91,731.79,893.97,689.96,893.97z"/>
+      <path d="M880.23,917.36c37.27,0,58.63,18.43,58.63,50.88c0,34.13-21.36,53.82-58.63,53.82h-29.11v41.88h-33.08V917.36H880.23z M851.12,994.42h27.43c18.43,0,28.9-8.38,28.9-25.13c0-16.33-10.47-24.5-28.9-24.5h-27.43V994.42z"/>
+      <path d="M987.44,971.6c7.75-13.82,20.52-21.36,37.27-21.57v30.36c-23.03-2.09-37.27,10.26-37.27,29.32v54.23H955.2V951.29h32.25V971.6z"/>
+      <path d="M1109.8,1076.51c-7.96,19.89-21.78,29.53-41.25,29.53c-11.94,0-21.36-3.35-30.57-10.89l13.61-23.24c5.03,4.19,9.42,6.07,14.66,6.07c6.7,0,11.73-3.35,14.87-10.05l3.14-6.28l-46.7-110.35h33.29l29.52,77.48l26.59-77.48h32.25L1109.8,1076.51z"/>
+      <path d="M1253.03,962.39l-11.1,21.99c-12.35-6.91-24.92-10.89-34.34-10.89c-7.54,0-12.98,2.51-12.98,8.38c0,16.96,59.47,8.38,59.26,48.16c0,23.03-20.31,35.18-45.86,35.18c-18.22,0-36.02-5.44-48.79-15.7l10.47-21.78c11.73,9,26.8,14.03,39.16,14.03c8.17,0,14.24-2.72,14.24-8.79c0-18.01-58.42-8.38-58.42-47.95c0-23.24,19.89-35.18,44.39-35.18C1224.55,949.82,1240.47,954.43,1253.03,962.39z"/>
+      <path d="M1340.05,1050.75c-7.54,9.42-19.68,14.66-35.39,14.66c-24.08,0-38.74-14.66-38.74-35.18c0-21.15,15.29-33.71,42.93-33.92h30.99v-2.09c0-11.93-7.96-18.85-23.45-18.85c-10.05,0-21.78,3.35-33.5,9.84l-10.05-22.2c16.75-8.38,31.2-12.98,50.88-12.98c30.15,0,47.53,15.08,47.74,40.41l0.21,73.5h-31.62V1050.75z M1339.84,1025.41v-10.05h-25.34c-12.35,0-18.43,3.77-18.43,12.77c0,8.59,6.7,14.24,17.59,14.24C1327.27,1042.37,1337.95,1035.05,1339.84,1025.41z"/>
+      <path d="M1421.13,919.25c0 10.47-7.12 18.01-17.38 18.01s-17.38-7.54-17.38-18.01s7.12-18.01,17.38-18.01S1421.13,908.78,1421.13,919.25z M1387.62,1063.94V951.29h32.25v112.66h-32.25z"/>
+    </g>
+  </svg>
+  <text x="1040" y="78" fill="#C9D8F2" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2.2" text-anchor="end">AI / IT STUDIO</text>
+
+  <text x="76" y="157" fill="#9EB7DF" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2.2">RUIMING ZHAO / UZZRM</text>
+  <text x="76" y="210" fill="#FFFFFF" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="42" font-weight="700" letter-spacing="-1.2">AI systems with</text>
+  <text x="76" y="258" fill="#FFFFFF" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="42" font-weight="700" letter-spacing="-1.2">practical discipline.</text>
+  <text x="76" y="294" fill="#C7CFDB" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="16" font-weight="500">AI agents · developer tools · reliable workflows</text>
+
+  <g transform="translate(830 151)">
+    <rect width="300" height="130" rx="16" fill="#0D131F" fill-opacity="0.64" stroke="#C8D8F2" stroke-opacity="0.24"/>
+    <text x="22" y="28" fill="#94B3E5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5">WORKING FOCUS</text>
+    <path d="M22 43H278" stroke="#C8D8F2" stroke-opacity="0.2"/>
+    <text x="22" y="70" fill="#FFFFFF" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="14" font-weight="700">01  CONTEXT</text>
+    <text x="22" y="94" fill="#FFFFFF" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="14" font-weight="700">02  TOOLS</text>
+    <text x="22" y="118" fill="#FFFFFF" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="14" font-weight="700">03  EVIDENCE</text>
   </g>
 </svg>
