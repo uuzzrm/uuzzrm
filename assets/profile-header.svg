@@ -19,7 +19,6 @@
     </clipPath>
   </defs>
 
-  <rect width="1200" height="360" fill="#05070A"/>
   <rect x="24" y="24" width="1152" height="312" rx="24" fill="url(#surface)" stroke="#DCE7F8" stroke-opacity="0.28"/>
 
   <g clip-path="url(#cardClip)">
