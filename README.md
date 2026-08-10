@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/uuzzrm/uuzzrm/main/assets/profile-header.svg" alt="Ruiming Zhao at Prysai — AI agents, developer tools, reliable workflows" width="100%" />
+  <img src="https://raw.githubusercontent.com/uuzzrm/uuzzrm/3961098/assets/profile-header.svg" alt="Ruiming Zhao at Prysai — AI agents, developer tools, reliable workflows" width="100%" />
 </div>
 
 <p align="center">
