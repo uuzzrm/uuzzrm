@@ -31,7 +31,7 @@ The standard is simple: fewer impressive demos, more systems that can be tested,
 
 ## Open-source contributions
 
-Ten upstream projects, eleven merged pull requests. A compact record of work that made it into other people's codebases, docs, and releases.
+A selective record of changes that made it into other people's codebases, docs, and releases. Each entry links directly to the merged work.
 
 <table>
   <tr>
@@ -142,7 +142,7 @@ One account-level signal: the total stars received by all public repositories ov
   </picture>
 </p>
 
-<sub>All public repositories are included · forks contribute only their own stars · updated daily by <a href="https://github.com/uuzzrm/uuzzrm/actions/workflows/update-account-stars.yml">GitHub Actions</a>.</sub>
+<sub>All public repositories are included · forks contribute only their own stars · refreshed daily by <a href="https://github.com/uuzzrm/uuzzrm/actions/workflows/update-account-stars.yml">GitHub Actions</a>.</sub>
 
 ## Current interests
 
