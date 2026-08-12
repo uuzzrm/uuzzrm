@@ -11,13 +11,23 @@
       "date": "2026-08-11",
       "total_stars": 8,
       "repository_count": 56
+    },
+    {
+      "date": "2026-08-12",
+      "total_stars": 17,
+      "repository_count": 70
     }
   ],
   "latest": {
-    "date": "2026-08-11",
-    "total_stars": 8,
-    "repository_count": 56,
+    "date": "2026-08-12",
+    "total_stars": 17,
+    "repository_count": 70,
     "repositories": [
+      {
+        "full_name": "uuzzrm/accelerate",
+        "stars": 0,
+        "fork": true
+      },
       {
         "full_name": "uuzzrm/adk-python",
         "stars": 0,
@@ -84,6 +94,16 @@
         "fork": true
       },
       {
+        "full_name": "uuzzrm/deepagents",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/dspy",
+        "stars": 0,
+        "fork": true
+      },
+      {
         "full_name": "uuzzrm/elevenlabs-python",
         "stars": 0,
         "fork": true
@@ -99,7 +119,17 @@
         "fork": true
       },
       {
+        "full_name": "uuzzrm/Flowise",
+        "stars": 0,
+        "fork": true
+      },
+      {
         "full_name": "uuzzrm/gitgalaxy",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/gnt",
         "stars": 0,
         "fork": true
       },
@@ -114,13 +144,18 @@
         "fork": true
       },
       {
+        "full_name": "uuzzrm/jupyter-ai-magic-commands",
+        "stars": 0,
+        "fork": true
+      },
+      {
         "full_name": "uuzzrm/kimi-code",
         "stars": 0,
         "fork": true
       },
       {
         "full_name": "uuzzrm/kona",
-        "stars": 8,
+        "stars": 16,
         "fork": false
       },
       {
@@ -140,6 +175,11 @@
       },
       {
         "full_name": "uuzzrm/langfuse",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/langfuse-cli",
         "stars": 0,
         "fork": true
       },
@@ -204,12 +244,22 @@
         "fork": true
       },
       {
+        "full_name": "uuzzrm/open-connector",
+        "stars": 0,
+        "fork": true
+      },
+      {
         "full_name": "uuzzrm/open-webui",
         "stars": 0,
         "fork": true
       },
       {
         "full_name": "uuzzrm/openai-agents-python",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/openai-cookbook",
         "stars": 0,
         "fork": true
       },
@@ -229,6 +279,11 @@
         "fork": true
       },
       {
+        "full_name": "uuzzrm/pipecat",
+        "stars": 0,
+        "fork": true
+      },
+      {
         "full_name": "uuzzrm/pr-agent",
         "stars": 0,
         "fork": true
@@ -244,6 +299,16 @@
         "fork": true
       },
       {
+        "full_name": "uuzzrm/python-genai",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/python-sdk",
+        "stars": 0,
+        "fork": true
+      },
+      {
         "full_name": "uuzzrm/ragops",
         "stars": 0,
         "fork": true
@@ -255,6 +320,16 @@
       },
       {
         "full_name": "uuzzrm/sandbox-sdk",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/semantic-kernel",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/semantic-router",
         "stars": 0,
         "fork": true
       },
@@ -290,7 +365,7 @@
       },
       {
         "full_name": "uuzzrm/uuzzrm",
-        "stars": 0,
+        "stars": 1,
         "fork": false
       },
       {
