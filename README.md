@@ -38,13 +38,31 @@ A selective record of changes that made it into other people's codebases, docs, 
     <th align="left">Proof of work</th>
   </tr>
   <tr>
+    <td><sub>AGENT RUNTIME &amp; OPERATIONS</sub><br /><a href="https://github.com/microsoft/agent-framework"><strong>microsoft/agent-framework</strong></a> · <a href="https://github.com/microsoft/agent-framework/pull/7622">PR #7622</a> · <a href="https://github.com/microsoft/agent-framework/pull/7597">#7597</a> · merged<br /><br />Made rejected MCP skill archives visible at the operational warning level and preserved Mistral prompt-cache usage details across regular and streaming responses.</td>
+  </tr>
+  <tr>
+    <td><sub>AGENT INTEGRATION &amp; SAFETY</sub><br /><a href="https://github.com/gnt-ai/gnt"><strong>gnt-ai/gnt</strong></a> · <a href="https://github.com/gnt-ai/gnt/pull/138">PR #138</a> · merged<br /><br />Documented a secure Goose-to-gnt MCP integration, including secret handling, persistent instructions, and human authorization boundaries.</td>
+  </tr>
+  <tr>
+    <td><sub>ROUTING &amp; OBSERVABILITY</sub><br /><a href="https://github.com/vllm-project/semantic-router"><strong>vllm-project/semantic-router</strong></a> · <a href="https://github.com/vllm-project/semantic-router/pull/2874">PR #2874</a> · merged<br /><br />Corrected Router Replay attribution so multi-model Looper executions record the model that produced the final response.</td>
+  </tr>
+  <tr>
+    <td><sub>VOICE AI &amp; CONFIGURATION</sub><br /><a href="https://github.com/livekit/agents"><strong>livekit/agents</strong></a> · <a href="https://github.com/livekit/agents/pull/6810">PR #6810</a> · merged<br /><br />Added explicit Google Speech-to-Text project selection while preserving credential-based discovery for existing callers.</td>
+  </tr>
+  <tr>
+    <td><sub>CONNECTORS &amp; PRODUCT INTEGRATION</sub><br /><a href="https://github.com/oomol-lab/open-connector"><strong>oomol-lab/open-connector</strong></a> · <a href="https://github.com/oomol-lab/open-connector/pull/300">PR #300</a> · merged<br /><br />Expanded the Resend connector from basic sending into batch, scheduling, retrieval, cancellation, and attachment workflows with shared validation and pagination.</td>
+  </tr>
+  <tr>
+    <td><sub>VOICE AI &amp; AUDIO PIPELINES</sub><br /><a href="https://github.com/pipecat-ai/pipecat"><strong>pipecat-ai/pipecat</strong></a> · <a href="https://github.com/pipecat-ai/pipecat/pull/5298">PR #5298</a> · merged<br /><br />Made AssemblyAI speech recognition inherit the pipeline input sample rate unless callers provide an explicit override.</td>
+  </tr>
+  <tr>
     <td><sub>EVALUATION &amp; OBSERVABILITY</sub><br /><a href="https://github.com/thangldw/ragops"><strong>thangldw/ragops</strong></a> · <a href="https://github.com/thangldw/ragops/pull/30">PR #30</a> · merged<br /><br />Added an offline Phoenix recorded-score adapter with deterministic case-ID joins, synthetic fixtures, documentation, and tests.</td>
   </tr>
   <tr>
     <td><sub>AGENT TOOLING &amp; COMPATIBILITY</sub><br /><a href="https://github.com/ag2ai/ag2"><strong>ag2ai/ag2</strong></a> · <a href="https://github.com/ag2ai/ag2/pull/3148">PR #3148</a> · merged<br /><br />Added HEIC and HEIF MIME types to the Gemini image-input type path and covered the public factory with regression tests.</td>
   </tr>
   <tr>
-    <td><sub>AGENT TOOLING &amp; COMPATIBILITY</sub><br /><a href="https://github.com/mlflow/mlflow"><strong>mlflow/mlflow</strong></a> · <a href="https://github.com/mlflow/mlflow/pull/25000">PR #25000</a> · merged<br /><br />Preserved provider-specific usage metadata in the OpenAI-compatible gateway, with regression coverage for nested usage details.</td>
+    <td><sub>AGENT TOOLING &amp; COMPATIBILITY</sub><br /><a href="https://github.com/mlflow/mlflow"><strong>mlflow/mlflow</strong></a> · <a href="https://github.com/mlflow/mlflow/pull/25010">PR #25010</a> · <a href="https://github.com/mlflow/mlflow/pull/25000">#25000</a> · merged<br /><br />Preserved provider-specific usage metadata across Gemini, Anthropic, and OpenAI-compatible gateway adapters, with regression coverage for normalized and nested usage details.</td>
   </tr>
   <tr>
     <td><sub>AGENT TOOLING &amp; DOCUMENTATION</sub><br /><a href="https://github.com/jupyterlab/jupyter-ai"><strong>jupyterlab/jupyter-ai</strong></a> · <a href="https://github.com/jupyterlab/jupyter-ai/pull/1639">PR #1639</a> · merged<br /><br />Added a concise interaction model explaining how chat, personas, ACP agents, model providers, and MCP tools fit together.</td>
@@ -56,10 +74,10 @@ A selective record of changes that made it into other people's codebases, docs, 
     <td><sub>PERFORMANCE &amp; DELIVERY</sub><br /><a href="https://github.com/squid-protocol/gitgalaxy"><strong>squid-protocol/gitgalaxy</strong></a> · <a href="https://github.com/squid-protocol/gitgalaxy/pull/1201">PR #1201</a> · merged<br /><br />Replaced manual append loops with <code>extend</code>-based recorder code and resolved the related Ruff performance findings.</td>
   </tr>
   <tr>
-    <td><sub>AGENT TOOLING &amp; COMPATIBILITY</sub><br /><a href="https://github.com/mastra-ai/mastra"><strong>mastra-ai/mastra</strong></a> · <a href="https://github.com/mastra-ai/mastra/pull/21147">PR #21147</a> · merged<br /><br />Fixed CommonJS schema compatibility by bundling the Zod conversion dependencies and adding regression coverage.</td>
+    <td><sub>AGENT TOOLING &amp; COMPATIBILITY</sub><br /><a href="https://github.com/mastra-ai/mastra"><strong>mastra-ai/mastra</strong></a> · <a href="https://github.com/mastra-ai/mastra/pull/21281">PR #21281</a> · <a href="https://github.com/mastra-ai/mastra/pull/21147">#21147</a> · merged<br /><br />Resolved dynamic models once per assigned-tool batch and fixed CommonJS schema compatibility by bundling the Zod conversion dependencies.</td>
   </tr>
   <tr>
-    <td><sub>ACCESSIBILITY &amp; EXPERIENCE</sub><br /><a href="https://github.com/felladrin/MiniSearch"><strong>felladrin/MiniSearch</strong></a> · <a href="https://github.com/felladrin/MiniSearch/pull/2324">PR #2324</a> · merged<br /><br />Capped staggered result animations and honored <code>prefers-reduced-motion</code>.</td>
+    <td><sub>RELIABILITY &amp; EXPERIENCE</sub><br /><a href="https://github.com/felladrin/MiniSearch"><strong>felladrin/MiniSearch</strong></a> · <a href="https://github.com/felladrin/MiniSearch/pull/2339">PR #2339</a> · <a href="https://github.com/felladrin/MiniSearch/pull/2324">#2324</a> · merged<br /><br />Made pre-stream inference failures return the intended 503 response, capped staggered result animations, and honored <code>prefers-reduced-motion</code>.</td>
   </tr>
   <tr>
     <td><sub>PRIVACY &amp; EVALUATION</sub><br /><a href="https://github.com/seva9523/EvalRepro"><strong>seva9523/EvalRepro</strong></a> · <a href="https://github.com/seva9523/EvalRepro/pull/12">PR #12</a> · merged<br /><br />Added <code>--no-id_preview</code> to suppress sample ID previews while preserving sample and field digests.</td>
