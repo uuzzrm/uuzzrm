@@ -38,6 +38,9 @@ A selective record of changes that made it into other people's codebases, docs, 
     <th align="left">Proof of work</th>
   </tr>
   <tr>
+    <td><sub>COLLABORATION &amp; TEST RELIABILITY</sub><br /><a href="https://github.com/jupyterlab/jupyter-chat"><strong>jupyterlab/jupyter-chat</strong></a> · <a href="https://github.com/jupyterlab/jupyter-chat/pull/486">PR #486</a> · merged<br /><br />Eliminated SQLite YStore lock contention in parallel UI tests by giving each test server an isolated YStore database.</td>
+  </tr>
+  <tr>
     <td><sub>AGENT RUNTIME &amp; OPERATIONS</sub><br /><a href="https://github.com/microsoft/agent-framework"><strong>microsoft/agent-framework</strong></a> · <a href="https://github.com/microsoft/agent-framework/pull/7622">PR #7622</a> · <a href="https://github.com/microsoft/agent-framework/pull/7597">#7597</a> · merged<br /><br />Made rejected MCP skill archives visible at the operational warning level and preserved Mistral prompt-cache usage details across regular and streaming responses.</td>
   </tr>
   <tr>
@@ -68,7 +71,7 @@ A selective record of changes that made it into other people's codebases, docs, 
     <td><sub>AGENT TOOLING &amp; DOCUMENTATION</sub><br /><a href="https://github.com/jupyterlab/jupyter-ai"><strong>jupyterlab/jupyter-ai</strong></a> · <a href="https://github.com/jupyterlab/jupyter-ai/pull/1639">PR #1639</a> · merged<br /><br />Added a concise interaction model explaining how chat, personas, ACP agents, model providers, and MCP tools fit together.</td>
   </tr>
   <tr>
-    <td><sub>PACKAGING &amp; OPERATIONS</sub><br /><a href="https://github.com/MSKazemi/kubeintellect"><strong>MSKazemi/kubeintellect</strong></a> · <a href="https://github.com/MSKazemi/kubeintellect/pull/111">PR #111</a> · <a href="https://github.com/MSKazemi/kubeintellect/pull/105">#105</a> · merged<br /><br />Updated the <code>kube-q</code> Homebrew formula with current release resources and documented v4 data-handling boundaries.</td>
+    <td><sub>MEMORY &amp; OPERATIONS</sub><br /><a href="https://github.com/MSKazemi/kubeintellect"><strong>MSKazemi/kubeintellect</strong></a> · <a href="https://github.com/MSKazemi/kubeintellect/pull/116">PR #116</a> · <a href="https://github.com/MSKazemi/kubeintellect/pull/111">#111</a> · <a href="https://github.com/MSKazemi/kubeintellect/pull/105">#105</a> · merged<br /><br />Made the memory-recall similarity floor configurable, updated the <code>kube-q</code> Homebrew formula, and documented v4 data-handling boundaries.</td>
   </tr>
   <tr>
     <td><sub>PERFORMANCE &amp; DELIVERY</sub><br /><a href="https://github.com/squid-protocol/gitgalaxy"><strong>squid-protocol/gitgalaxy</strong></a> · <a href="https://github.com/squid-protocol/gitgalaxy/pull/1201">PR #1201</a> · merged<br /><br />Replaced manual append loops with <code>extend</code>-based recorder code and resolved the related Ruff performance findings.</td>
