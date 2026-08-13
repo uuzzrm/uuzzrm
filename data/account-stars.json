@@ -16,16 +16,21 @@
       "date": "2026-08-12",
       "total_stars": 17,
       "repository_count": 70
+    },
+    {
+      "date": "2026-08-13",
+      "total_stars": 47,
+      "repository_count": 72
     }
   ],
   "latest": {
-    "date": "2026-08-12",
-    "total_stars": 17,
-    "repository_count": 70,
+    "date": "2026-08-13",
+    "total_stars": 47,
+    "repository_count": 72,
     "repositories": [
       {
         "full_name": "uuzzrm/accelerate",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -40,12 +45,12 @@
       },
       {
         "full_name": "uuzzrm/agent-framework",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/agents",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -60,7 +65,7 @@
       },
       {
         "full_name": "uuzzrm/ai",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -70,6 +75,11 @@
       },
       {
         "full_name": "uuzzrm/automation",
+        "stars": 0,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/babysitter",
         "stars": 0,
         "fork": true
       },
@@ -95,7 +105,7 @@
       },
       {
         "full_name": "uuzzrm/deepagents",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -120,7 +130,7 @@
       },
       {
         "full_name": "uuzzrm/Flowise",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -130,7 +140,7 @@
       },
       {
         "full_name": "uuzzrm/gnt",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -145,6 +155,11 @@
       },
       {
         "full_name": "uuzzrm/jupyter-ai-magic-commands",
+        "stars": 1,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/jupyter-chat",
         "stars": 0,
         "fork": true
       },
@@ -155,12 +170,12 @@
       },
       {
         "full_name": "uuzzrm/kona",
-        "stars": 16,
+        "stars": 17,
         "fork": false
       },
       {
         "full_name": "uuzzrm/kubeintellect",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -170,22 +185,22 @@
       },
       {
         "full_name": "uuzzrm/langchainjs",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/langfuse",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/langfuse-cli",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/langfuse-js",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -200,12 +215,12 @@
       },
       {
         "full_name": "uuzzrm/litellm",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/llama_index",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -215,7 +230,7 @@
       },
       {
         "full_name": "uuzzrm/mastra",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -225,12 +240,12 @@
       },
       {
         "full_name": "uuzzrm/MiniSearch",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/mlflow",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -245,12 +260,12 @@
       },
       {
         "full_name": "uuzzrm/open-connector",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/open-webui",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -260,7 +275,7 @@
       },
       {
         "full_name": "uuzzrm/openai-cookbook",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -270,7 +285,7 @@
       },
       {
         "full_name": "uuzzrm/opik",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -280,7 +295,7 @@
       },
       {
         "full_name": "uuzzrm/pipecat",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -295,7 +310,7 @@
       },
       {
         "full_name": "uuzzrm/pydantic-ai",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -305,7 +320,7 @@
       },
       {
         "full_name": "uuzzrm/python-sdk",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -315,7 +330,7 @@
       },
       {
         "full_name": "uuzzrm/rtk",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -330,7 +345,7 @@
       },
       {
         "full_name": "uuzzrm/semantic-router",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -340,7 +355,7 @@
       },
       {
         "full_name": "uuzzrm/smolagents",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -365,7 +380,7 @@
       },
       {
         "full_name": "uuzzrm/uuzzrm",
-        "stars": 1,
+        "stars": 2,
         "fork": false
       },
       {
