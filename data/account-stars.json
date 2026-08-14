@@ -21,11 +21,16 @@
       "date": "2026-08-13",
       "total_stars": 47,
       "repository_count": 72
+    },
+    {
+      "date": "2026-08-14",
+      "total_stars": 77,
+      "repository_count": 72
     }
   ],
   "latest": {
-    "date": "2026-08-13",
-    "total_stars": 47,
+    "date": "2026-08-14",
+    "total_stars": 77,
     "repository_count": 72,
     "repositories": [
       {
@@ -40,7 +45,7 @@
       },
       {
         "full_name": "uuzzrm/ag2",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -55,12 +60,12 @@
       },
       {
         "full_name": "uuzzrm/agentscope",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/agno",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -70,17 +75,17 @@
       },
       {
         "full_name": "uuzzrm/anthropic-sdk-python",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/automation",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/babysitter",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -95,7 +100,7 @@
       },
       {
         "full_name": "uuzzrm/continue",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -110,12 +115,12 @@
       },
       {
         "full_name": "uuzzrm/dspy",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/elevenlabs-python",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -125,7 +130,7 @@
       },
       {
         "full_name": "uuzzrm/fastmcp",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -135,7 +140,7 @@
       },
       {
         "full_name": "uuzzrm/gitgalaxy",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -145,12 +150,12 @@
       },
       {
         "full_name": "uuzzrm/graphiti",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/jupyter-ai",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -160,7 +165,7 @@
       },
       {
         "full_name": "uuzzrm/jupyter-chat",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -205,12 +210,12 @@
       },
       {
         "full_name": "uuzzrm/langgraph",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/langwatch",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -235,7 +240,7 @@
       },
       {
         "full_name": "uuzzrm/mem0",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -250,12 +255,12 @@
       },
       {
         "full_name": "uuzzrm/nanobot",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/ollama",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -270,7 +275,7 @@
       },
       {
         "full_name": "uuzzrm/openai-agents-python",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -280,7 +285,7 @@
       },
       {
         "full_name": "uuzzrm/OpenHands",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -290,7 +295,7 @@
       },
       {
         "full_name": "uuzzrm/optuna",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -305,7 +310,7 @@
       },
       {
         "full_name": "uuzzrm/promptfoo",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -315,7 +320,7 @@
       },
       {
         "full_name": "uuzzrm/python-genai",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -325,7 +330,7 @@
       },
       {
         "full_name": "uuzzrm/ragops",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -335,12 +340,12 @@
       },
       {
         "full_name": "uuzzrm/sandbox-sdk",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/semantic-kernel",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -350,7 +355,7 @@
       },
       {
         "full_name": "uuzzrm/skypilot",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -360,7 +365,7 @@
       },
       {
         "full_name": "uuzzrm/software-agent-sdk",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -375,7 +380,7 @@
       },
       {
         "full_name": "uuzzrm/typescript-sdk",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
