@@ -26,12 +26,17 @@
       "date": "2026-08-14",
       "total_stars": 77,
       "repository_count": 72
+    },
+    {
+      "date": "2026-08-15",
+      "total_stars": 89,
+      "repository_count": 76
     }
   ],
   "latest": {
-    "date": "2026-08-14",
-    "total_stars": 77,
-    "repository_count": 72,
+    "date": "2026-08-15",
+    "total_stars": 89,
+    "repository_count": 76,
     "repositories": [
       {
         "full_name": "uuzzrm/accelerate",
@@ -40,7 +45,7 @@
       },
       {
         "full_name": "uuzzrm/adk-python",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -90,12 +95,12 @@
       },
       {
         "full_name": "uuzzrm/browser-use",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/chroma",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -105,7 +110,7 @@
       },
       {
         "full_name": "uuzzrm/datasets",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -125,7 +130,7 @@
       },
       {
         "full_name": "uuzzrm/EvalRepro",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -170,7 +175,7 @@
       },
       {
         "full_name": "uuzzrm/kimi-code",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -185,12 +190,17 @@
       },
       {
         "full_name": "uuzzrm/langchain",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/langchainjs",
         "stars": 1,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/langextract",
+        "stars": 0,
         "fork": true
       },
       {
@@ -206,6 +216,11 @@
       {
         "full_name": "uuzzrm/langfuse-js",
         "stars": 1,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/langfuse-python",
+        "stars": 0,
         "fork": true
       },
       {
@@ -230,6 +245,11 @@
       },
       {
         "full_name": "uuzzrm/LLMs-from-scratch",
+        "stars": 1,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/markitdown",
         "stars": 0,
         "fork": true
       },
@@ -299,13 +319,18 @@
         "fork": true
       },
       {
+        "full_name": "uuzzrm/outlines",
+        "stars": 0,
+        "fork": true
+      },
+      {
         "full_name": "uuzzrm/pipecat",
         "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/pr-agent",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -370,12 +395,12 @@
       },
       {
         "full_name": "uuzzrm/spec-kitty",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/stagehand",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -390,7 +415,7 @@
       },
       {
         "full_name": "uuzzrm/xskill",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       }
     ]
