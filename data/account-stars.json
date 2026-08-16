@@ -31,20 +31,20 @@
       "date": "2026-08-15",
       "total_stars": 89,
       "repository_count": 76
+    },
+    {
+      "date": "2026-08-16",
+      "total_stars": 79,
+      "repository_count": 63
     }
   ],
   "latest": {
-    "date": "2026-08-15",
-    "total_stars": 89,
-    "repository_count": 76,
+    "date": "2026-08-16",
+    "total_stars": 79,
+    "repository_count": 63,
     "repositories": [
       {
         "full_name": "uuzzrm/accelerate",
-        "stars": 1,
-        "fork": true
-      },
-      {
-        "full_name": "uuzzrm/adk-python",
         "stars": 1,
         "fork": true
       },
@@ -84,11 +84,6 @@
         "fork": true
       },
       {
-        "full_name": "uuzzrm/automation",
-        "stars": 1,
-        "fork": true
-      },
-      {
         "full_name": "uuzzrm/babysitter",
         "stars": 1,
         "fork": true
@@ -109,17 +104,12 @@
         "fork": true
       },
       {
+        "full_name": "uuzzrm/corecoder-ts",
+        "stars": 1,
+        "fork": true
+      },
+      {
         "full_name": "uuzzrm/datasets",
-        "stars": 1,
-        "fork": true
-      },
-      {
-        "full_name": "uuzzrm/deepagents",
-        "stars": 1,
-        "fork": true
-      },
-      {
-        "full_name": "uuzzrm/dspy",
         "stars": 1,
         "fork": true
       },
@@ -130,11 +120,6 @@
       },
       {
         "full_name": "uuzzrm/EvalRepro",
-        "stars": 1,
-        "fork": true
-      },
-      {
-        "full_name": "uuzzrm/fastmcp",
         "stars": 1,
         "fork": true
       },
@@ -174,11 +159,6 @@
         "fork": true
       },
       {
-        "full_name": "uuzzrm/kimi-code",
-        "stars": 1,
-        "fork": true
-      },
-      {
         "full_name": "uuzzrm/kona",
         "stars": 17,
         "fork": false
@@ -189,27 +169,17 @@
         "fork": true
       },
       {
-        "full_name": "uuzzrm/langchain",
-        "stars": 1,
-        "fork": true
-      },
-      {
         "full_name": "uuzzrm/langchainjs",
         "stars": 1,
         "fork": true
       },
       {
         "full_name": "uuzzrm/langextract",
-        "stars": 0,
-        "fork": true
-      },
-      {
-        "full_name": "uuzzrm/langfuse",
         "stars": 1,
         "fork": true
       },
       {
-        "full_name": "uuzzrm/langfuse-cli",
+        "full_name": "uuzzrm/langfuse",
         "stars": 1,
         "fork": true
       },
@@ -220,16 +190,11 @@
       },
       {
         "full_name": "uuzzrm/langfuse-python",
-        "stars": 0,
-        "fork": true
-      },
-      {
-        "full_name": "uuzzrm/langgraph",
         "stars": 1,
         "fork": true
       },
       {
-        "full_name": "uuzzrm/langwatch",
+        "full_name": "uuzzrm/langgraph",
         "stars": 1,
         "fork": true
       },
@@ -244,13 +209,8 @@
         "fork": true
       },
       {
-        "full_name": "uuzzrm/LLMs-from-scratch",
-        "stars": 1,
-        "fork": true
-      },
-      {
         "full_name": "uuzzrm/markitdown",
-        "stars": 0,
+        "stars": 1,
         "fork": true
       },
       {
@@ -275,11 +235,6 @@
       },
       {
         "full_name": "uuzzrm/nanobot",
-        "stars": 1,
-        "fork": true
-      },
-      {
-        "full_name": "uuzzrm/ollama",
         "stars": 1,
         "fork": true
       },
@@ -329,11 +284,6 @@
         "fork": true
       },
       {
-        "full_name": "uuzzrm/pr-agent",
-        "stars": 1,
-        "fork": true
-      },
-      {
         "full_name": "uuzzrm/promptfoo",
         "stars": 1,
         "fork": true
@@ -369,11 +319,6 @@
         "fork": true
       },
       {
-        "full_name": "uuzzrm/semantic-kernel",
-        "stars": 1,
-        "fork": true
-      },
-      {
         "full_name": "uuzzrm/semantic-router",
         "stars": 1,
         "fork": true
@@ -390,11 +335,6 @@
       },
       {
         "full_name": "uuzzrm/software-agent-sdk",
-        "stars": 1,
-        "fork": true
-      },
-      {
-        "full_name": "uuzzrm/spec-kitty",
         "stars": 1,
         "fork": true
       },
