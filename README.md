@@ -29,6 +29,19 @@ The standard is simple: fewer impressive demos, more systems that can be tested,
 
 [Prysai](https://prysai.com) is my studio for product experiments and practical work around AI systems and developer tools—small, testable pieces designed to be inspected, measured, and reused.
 
+<table>
+  <tr>
+    <td>
+      <sub>FLAGSHIP · EVIDENCE-LED LEARNING SYSTEM</sub><br />
+      <a href="https://github.com/Prysai/Prysai-LLM-Playbook"><strong>Prysai LLM Playbook</strong></a><br /><br />
+      A public, six-language learning and practice system for reliable work with LLMs, Codex, skills, tools, and agent workflows. It pairs concepts with observable labs, acceptance checks, and source boundaries.<br /><br />
+      <a href="https://github.com/Prysai/Prysai-LLM-Playbook">repository</a> · <a href="https://docs.prysai.com/llm-playbook/">documentation</a> · <a href="https://github.com/Prysai/Prysai-LLM-Playbook/releases/tag/v0.1.0-alpha">v0.1.0-alpha</a>
+    </td>
+  </tr>
+</table>
+
+<sub>Public development candidate: the structure and checks are available to inspect; broader learner validation and independent review remain in progress.</sub>
+
 ## Open-source contributions
 
 A selective record of changes that made it into other people's codebases, docs, and releases. Each entry links directly to the merged work.
