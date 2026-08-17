@@ -36,12 +36,17 @@
       "date": "2026-08-16",
       "total_stars": 79,
       "repository_count": 63
+    },
+    {
+      "date": "2026-08-17",
+      "total_stars": 75,
+      "repository_count": 59
     }
   ],
   "latest": {
-    "date": "2026-08-16",
-    "total_stars": 79,
-    "repository_count": 63,
+    "date": "2026-08-17",
+    "total_stars": 75,
+    "repository_count": 59,
     "repositories": [
       {
         "full_name": "uuzzrm/accelerate",
@@ -194,11 +199,6 @@
         "fork": true
       },
       {
-        "full_name": "uuzzrm/langgraph",
-        "stars": 1,
-        "fork": true
-      },
-      {
         "full_name": "uuzzrm/litellm",
         "stars": 1,
         "fork": true
@@ -245,11 +245,6 @@
       },
       {
         "full_name": "uuzzrm/open-webui",
-        "stars": 1,
-        "fork": true
-      },
-      {
-        "full_name": "uuzzrm/openai-agents-python",
         "stars": 1,
         "fork": true
       },
@@ -314,11 +309,6 @@
         "fork": true
       },
       {
-        "full_name": "uuzzrm/sandbox-sdk",
-        "stars": 1,
-        "fork": true
-      },
-      {
         "full_name": "uuzzrm/semantic-router",
         "stars": 1,
         "fork": true
@@ -352,11 +342,6 @@
         "full_name": "uuzzrm/uuzzrm",
         "stars": 2,
         "fork": false
-      },
-      {
-        "full_name": "uuzzrm/xskill",
-        "stars": 1,
-        "fork": true
       }
     ]
   }
