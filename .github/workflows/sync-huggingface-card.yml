@@ -57,12 +57,36 @@ jobs:
             echo "HF_TOKEN is not configured; the source card was prepared but not published." >> "$GITHUB_STEP_SUMMARY"
           fi
 
+      - name: Set up the Hugging Face CLI
+        if: steps.huggingface.outputs.enabled == 'true'
+        uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b # v8.1.0
+        with:
+          enable-cache: true
+
       - name: Sync the card to Hugging Face
         if: steps.huggingface.outputs.enabled == 'true'
-        uses: huggingface/hub-sync@6fbce0a787a7146710e588abe7a4fd5eca07f47c # v0.1.0
-        with:
-          github_repo_id: ${{ github.repository }}
-          huggingface_repo_id: uuzzrm/README
-          hf_token: ${{ secrets.HF_TOKEN }}
-          repo_type: model
-          subdirectory: _huggingface-card
+        shell: bash
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          set -euo pipefail
+          uvx hf repos create uuzzrm/README --repo-type model --exist-ok --token "$HF_TOKEN"
+
+          for attempt in 1 2 3; do
+            if uvx hf upload \
+              uuzzrm/README \
+              _huggingface-card/README.md \
+              README.md \
+              --repo-type model \
+              --token "$HF_TOKEN" \
+              --commit-message="Sync profile card from GitHub $GITHUB_SHA" \
+              --format json; then
+              exit 0
+            fi
+            if [[ "$attempt" -lt 3 ]]; then
+              sleep 5
+            fi
+          done
+
+          echo "Hugging Face profile-card upload failed after three attempts." >&2
+          exit 1
