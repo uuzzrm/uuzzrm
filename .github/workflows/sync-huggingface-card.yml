@@ -72,6 +72,22 @@ jobs:
           set -euo pipefail
           uvx hf repos create uuzzrm/README --repo-type model --exist-ok --token "$HF_TOKEN"
 
+          # A newly created Hub repo can take a few seconds to become readable
+          # through the model API on a hosted runner. Wait for that signal before
+          # asking the upload client to resolve the repo.
+          for ready_attempt in {1..12}; do
+            if curl --fail --silent --show-error \
+              --header "Authorization: Bearer $HF_TOKEN" \
+              https://huggingface.co/api/models/uuzzrm/README > /dev/null; then
+              break
+            fi
+            if [[ "$ready_attempt" -eq 12 ]]; then
+              echo "Hugging Face profile repository did not become readable." >&2
+              exit 1
+            fi
+            sleep 5
+          done
+
           for attempt in 1 2 3; do
             if uvx hf upload \
               uuzzrm/README \
