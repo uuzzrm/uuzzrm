@@ -41,12 +41,17 @@
       "date": "2026-08-17",
       "total_stars": 75,
       "repository_count": 59
+    },
+    {
+      "date": "2026-08-18",
+      "total_stars": 75,
+      "repository_count": 61
     }
   ],
   "latest": {
-    "date": "2026-08-17",
+    "date": "2026-08-18",
     "total_stars": 75,
-    "repository_count": 59,
+    "repository_count": 61,
     "repositories": [
       {
         "full_name": "uuzzrm/accelerate",
@@ -249,6 +254,11 @@
         "fork": true
       },
       {
+        "full_name": "uuzzrm/openai-agents-python-upstream",
+        "stars": 0,
+        "fork": true
+      },
+      {
         "full_name": "uuzzrm/openai-cookbook",
         "stars": 1,
         "fork": true
@@ -342,6 +352,11 @@
         "full_name": "uuzzrm/uuzzrm",
         "stars": 2,
         "fork": false
+      },
+      {
+        "full_name": "uuzzrm/wshobson-agents",
+        "stars": 0,
+        "fork": true
       }
     ]
   }
