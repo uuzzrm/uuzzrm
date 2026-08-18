@@ -70,39 +70,56 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           set -euo pipefail
-          uvx hf repos create uuzzrm/README --repo-type model --exist-ok --token "$HF_TOKEN"
+          uv run --no-project --with huggingface_hub==1.27.0 python - <<'PY'
+          import os
+          import time
+          from io import BytesIO
+          from pathlib import Path
+          from urllib.error import HTTPError
+          from urllib.request import Request, urlopen
 
-          # A newly created Hub repo can take a few seconds to become readable
-          # through the model API on a hosted runner. Wait for that signal before
-          # asking the upload client to resolve the repo.
-          for ready_attempt in {1..12}; do
-            if curl --fail --silent --show-error \
-              --header "Authorization: Bearer $HF_TOKEN" \
-              https://huggingface.co/api/models/uuzzrm/README > /dev/null; then
-              break
-            fi
-            if [[ "$ready_attempt" -eq 12 ]]; then
-              echo "Hugging Face profile repository did not become readable." >&2
-              exit 1
-            fi
-            sleep 5
-          done
+          from huggingface_hub import CommitOperationAdd, HfApi
 
-          for attempt in 1 2 3; do
-            if uvx hf upload \
-              uuzzrm/README \
-              _huggingface-card/README.md \
-              README.md \
-              --repo-type model \
-              --token "$HF_TOKEN" \
-              --commit-message="Sync profile card from GitHub $GITHUB_SHA" \
-              --format json; then
-              exit 0
-            fi
-            if [[ "$attempt" -lt 3 ]]; then
-              sleep 5
-            fi
-          done
+          token = os.environ["HF_TOKEN"]
+          repo_id = "uuzzrm/README"
+          desired = Path("_huggingface-card/README.md").read_bytes()
+          api = HfApi(token=token)
+          api.create_repo(repo_id=repo_id, repo_type="model", exist_ok=True)
 
-          echo "Hugging Face profile-card upload failed after three attempts." >&2
-          exit 1
+          for attempt in range(12):
+              try:
+                  api.model_info(repo_id)
+                  break
+              except Exception:
+                  if attempt == 11:
+                      raise
+                  time.sleep(5)
+
+          remote = None
+          request = Request(
+              f"https://huggingface.co/{repo_id}/raw/main/README.md",
+              headers={"Authorization": f"Bearer {token}"},
+          )
+          try:
+              with urlopen(request) as response:
+                  remote = response.read()
+          except HTTPError as error:
+              if error.code != 404:
+                  raise
+
+          if remote == desired:
+              print("Hugging Face profile card is already current.")
+          else:
+              commit = api.create_commit(
+                  repo_id=repo_id,
+                  repo_type="model",
+                  operations=[
+                      CommitOperationAdd(
+                          path_in_repo="README.md",
+                          path_or_fileobj=BytesIO(desired),
+                      )
+                  ],
+                  commit_message=f"Sync profile card from GitHub {os.environ['GITHUB_SHA']}",
+              )
+              print(commit.commit_url)
+          PY
