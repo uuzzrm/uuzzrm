@@ -1,0 +1,68 @@
+name: Sync profile card to Hugging Face
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "assets/profile-header.svg"
+      - "assets/account-stars-light.svg"
+      - "assets/account-stars-dark.svg"
+      - ".github/workflows/sync-huggingface-card.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: huggingface-profile-card
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile source
+        uses: actions/checkout@v4
+
+      - name: Prepare public Hugging Face card
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p _huggingface-card
+          cp README.md _huggingface-card/README.md
+          {
+            printf '%s\n' '---'
+            printf '%s\n' 'tags:'
+            printf '%s\n' '- ai-agents'
+            printf '%s\n' '- developer-tools'
+            printf '%s\n' '- image-models'
+            printf '%s\n' '- evaluation'
+            printf '%s\n' '- retrieval'
+            printf '%s\n' '---'
+            printf '\n'
+            cat README.md
+          } > _huggingface-card/README.md
+
+      - name: Detect Hugging Face publication configuration
+        id: huggingface
+        shell: bash
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          if [[ -n "$HF_TOKEN" ]]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "HF_TOKEN is not configured; the source card was prepared but not published." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Sync the card to Hugging Face
+        if: steps.huggingface.outputs.enabled == 'true'
+        uses: huggingface/hub-sync@6fbce0a787a7146710e588abe7a4fd5eca07f47c # v0.1.0
+        with:
+          github_repo_id: ${{ github.repository }}
+          huggingface_repo_id: uuzzrm/README
+          hf_token: ${{ secrets.HF_TOKEN }}
+          repo_type: model
+          subdirectory: _huggingface-card
