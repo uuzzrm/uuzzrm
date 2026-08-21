@@ -56,12 +56,17 @@
       "date": "2026-08-20",
       "total_stars": 75,
       "repository_count": 61
+    },
+    {
+      "date": "2026-08-21",
+      "total_stars": 76,
+      "repository_count": 63
     }
   ],
   "latest": {
-    "date": "2026-08-20",
-    "total_stars": 75,
-    "repository_count": 61,
+    "date": "2026-08-21",
+    "total_stars": 76,
+    "repository_count": 63,
     "repositories": [
       {
         "full_name": "uuzzrm/accelerate",
@@ -249,6 +254,11 @@
         "fork": true
       },
       {
+        "full_name": "uuzzrm/motiflux",
+        "stars": 1,
+        "fork": false
+      },
+      {
         "full_name": "uuzzrm/nanobot",
         "stars": 1,
         "fork": true
@@ -301,6 +311,11 @@
       {
         "full_name": "uuzzrm/promptfoo",
         "stars": 1,
+        "fork": true
+      },
+      {
+        "full_name": "uuzzrm/Prysai-LLM-Playbook",
+        "stars": 0,
         "fork": true
       },
       {
