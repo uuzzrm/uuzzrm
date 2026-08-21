@@ -28,28 +28,65 @@
 
 <sub>Six years in network operations and four years as an independent developer inform the work. Since 2024, this has also included full-quantization training and fine-tuning workflows for image AI models.</sub>
 
-## Toolkit
+## Languages & platforms
 
 <p>
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-1A365D?style=flat-square&logo=python&logoColor=white" alt="Python" /></a>
   <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-1A365D?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /></a>
+  <a href="https://learn.microsoft.com/dotnet/csharp/"><img src="https://img.shields.io/badge/C%23-1A365D?style=flat-square&logo=dotnet&logoColor=white" alt="C Sharp" /></a>
+  <a href="https://go.dev/"><img src="https://img.shields.io/badge/Go-1A365D?style=flat-square&logo=go&logoColor=white" alt="Go" /></a>
+  <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-1A365D?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" /></a>
+  <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-1A365D?style=flat-square&logo=rust&logoColor=white" alt="Rust" /></a>
+  <a href="https://isocpp.org/"><img src="https://img.shields.io/badge/C%2B%2B-1A365D?style=flat-square&logo=cplusplus&logoColor=white" alt="C Plus Plus" /></a>
+  <a href="https://www.open-std.org/jtc1/sc22/wg14/"><img src="https://img.shields.io/badge/C-1A365D?style=flat-square&logo=c&logoColor=white" alt="C" /></a>
+  <a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-1A365D?style=flat-square&logo=openjdk&logoColor=white" alt="Java" /></a>
+  <a href="https://www.r-project.org/"><img src="https://img.shields.io/badge/R-1A365D?style=flat-square&logo=r&logoColor=white" alt="R" /></a>
+  <a href="https://www.scala-lang.org/"><img src="https://img.shields.io/badge/Scala-1A365D?style=flat-square&logo=scala&logoColor=white" alt="Scala" /></a>
+  <a href="https://svelte.dev/"><img src="https://img.shields.io/badge/Svelte-1A365D?style=flat-square&logo=svelte&logoColor=white" alt="Svelte" /></a>
   <a href="https://developer.mozilla.org/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML-1A365D?style=flat-square&logo=html5&logoColor=white" alt="HTML" /></a>
   <a href="https://developer.mozilla.org/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS-1A365D?style=flat-square&logo=css&logoColor=white" alt="CSS" /></a>
+  <a href="https://www.gnu.org/software/bash/"><img src="https://img.shields.io/badge/Shell-1A365D?style=flat-square&logo=gnu-bash&logoColor=white" alt="Shell" /></a>
+  <a href="https://learn.microsoft.com/powershell/"><img src="https://img.shields.io/badge/PowerShell-1A365D?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" /></a>
   <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-1A365D?style=flat-square&logo=docker&logoColor=white" alt="Docker" /></a>
-  <a href="https://modelcontextprotocol.io/"><img src="https://img.shields.io/badge/MCP-1A365D?style=flat-square&logoColor=white" alt="Model Context Protocol" /></a>
+  <a href="https://cmake.org/"><img src="https://img.shields.io/badge/CMake-1A365D?style=flat-square&logo=cmake&logoColor=white" alt="CMake" /></a>
 </p>
 
-<sub>Shown because they are represented in public projects or accepted upstream work—not as a claim of formal certification.</sub>
+<sub>Languages and platforms represented in public projects or accepted upstream work. This is evidence of practical exposure and collaboration, not a claim of equal depth in every language.</sub>
 
-## Public record
+## Practice areas
 
 <p>
-  <a href="#selected-contributions"><img src="https://img.shields.io/badge/72%20external%20PRs-merged-1A365D?style=flat-square" alt="72 verified external merged pull requests" /></a>
-  <a href="https://github.com/Prysai/Prysai-LLM-Playbook/releases/tag/v0.1.0-alpha"><img src="https://img.shields.io/badge/Prysai%20LLM%20Playbook-v0.1.0--alpha-1A365D?style=flat-square" alt="Prysai LLM Playbook v0.1.0-alpha release" /></a>
+  <a href="#selected-contributions"><img src="https://img.shields.io/badge/AI%20agents-1A365D?style=flat-square" alt="AI agents" /></a>
+  <a href="#selected-contributions"><img src="https://img.shields.io/badge/LLM%20evaluation-1A365D?style=flat-square" alt="LLM evaluation" /></a>
+  <a href="https://modelcontextprotocol.io/"><img src="https://img.shields.io/badge/Model%20Context%20Protocol-1A365D?style=flat-square" alt="Model Context Protocol" /></a>
+  <a href="#selected-contributions"><img src="https://img.shields.io/badge/RAG%20systems-1A365D?style=flat-square" alt="RAG systems" /></a>
+  <a href="#selected-contributions"><img src="https://img.shields.io/badge/Agent%20reliability-1A365D?style=flat-square" alt="Agent reliability" /></a>
+  <a href="#selected-contributions"><img src="https://img.shields.io/badge/Security%20redaction-1A365D?style=flat-square" alt="Security redaction" /></a>
+  <a href="#selected-contributions"><img src="https://img.shields.io/badge/Test%20engineering-1A365D?style=flat-square" alt="Test engineering" /></a>
+  <a href="#selected-contributions"><img src="https://img.shields.io/badge/Image%20model%20training-1A365D?style=flat-square" alt="Image model training" /></a>
+</p>
+
+## Account & public record
+
+<p>
+  <a href="https://github.com/uuzzrm?tab=followers"><img src="https://img.shields.io/github/followers/uuzzrm?label=followers&style=flat-square&color=1A365D" alt="GitHub followers" /></a>
+  <a href="https://github.com/uuzzrm?tab=repositories"><img src="https://img.shields.io/badge/63%20public%20repos-GitHub-1A365D?style=flat-square&logo=github&logoColor=white" alt="63 public GitHub repositories as of 2026-08-20" /></a>
+  <a href="#selected-contributions"><img src="https://img.shields.io/badge/72%20external%20PRs-merged-1A365D?style=flat-square" alt="72 verified external merged pull requests as of 2026-08-20" /></a>
+  <a href="https://github.com/uuzzrm"><img src="https://img.shields.io/badge/on%20GitHub-since%202026--03-1A365D?style=flat-square&logo=github&logoColor=white" alt="On GitHub since March 2026" /></a>
   <a href="https://github.com/uuzzrm/uuzzrm/actions/workflows/update-account-stars.yml"><img src="https://img.shields.io/badge/account%20stars-daily%20history-1A365D?style=flat-square" alt="Account star history refreshed daily" /></a>
 </p>
 
-<sub>Each badge links to public evidence. The PR count is a verified snapshot from 2026-08-20 and will change as work is merged.</sub>
+## Prysai
+
+<p>
+  <a href="https://prysai.com/"><img src="https://img.shields.io/badge/Prysai-website-1A365D?style=flat-square" alt="Prysai website" /></a>
+  <a href="https://docs.prysai.com/llm-playbook/"><img src="https://img.shields.io/badge/Prysai%20LLM%20Playbook-docs-1A365D?style=flat-square" alt="Prysai LLM Playbook documentation" /></a>
+  <a href="https://github.com/Prysai/Prysai-LLM-Playbook"><img src="https://img.shields.io/github/stars/Prysai/Prysai--LLM--Playbook?label=Playbook%20stars&style=flat-square&color=1A365D" alt="Prysai LLM Playbook GitHub stars" /></a>
+  <a href="https://github.com/Prysai/Prysai-LLM-Playbook/releases/tag/v0.1.0-alpha"><img src="https://img.shields.io/badge/release-v0.1.0--alpha-1A365D?style=flat-square" alt="Prysai LLM Playbook v0.1.0-alpha release" /></a>
+  <a href="https://huggingface.co/Prysai"><img src="https://img.shields.io/badge/Prysai-Hugging%20Face-1A365D?style=flat-square&logo=huggingface&logoColor=white" alt="Prysai on Hugging Face" /></a>
+</p>
+
+<sub>Account counts are verified snapshots from 2026-08-20, except dynamic GitHub follower and Playbook-star badges. Every badge links to its public source.</sub>
 
 ## Building with Prysai
 
