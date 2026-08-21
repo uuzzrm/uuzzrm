@@ -28,6 +28,29 @@
 
 <sub>Six years in network operations and four years as an independent developer inform the work. Since 2024, this has also included full-quantization training and fine-tuning workflows for image AI models.</sub>
 
+## Toolkit
+
+<p>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-1A365D?style=flat-square&logo=python&logoColor=white" alt="Python" /></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-1A365D?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /></a>
+  <a href="https://developer.mozilla.org/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML-1A365D?style=flat-square&logo=html5&logoColor=white" alt="HTML" /></a>
+  <a href="https://developer.mozilla.org/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS-1A365D?style=flat-square&logo=css&logoColor=white" alt="CSS" /></a>
+  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-1A365D?style=flat-square&logo=docker&logoColor=white" alt="Docker" /></a>
+  <a href="https://modelcontextprotocol.io/"><img src="https://img.shields.io/badge/MCP-1A365D?style=flat-square&logoColor=white" alt="Model Context Protocol" /></a>
+</p>
+
+<sub>Shown because they are represented in public projects or accepted upstream work—not as a claim of formal certification.</sub>
+
+## Public record
+
+<p>
+  <a href="#selected-contributions"><img src="https://img.shields.io/badge/72%20external%20PRs-merged-1A365D?style=flat-square" alt="72 verified external merged pull requests" /></a>
+  <a href="https://github.com/Prysai/Prysai-LLM-Playbook/releases/tag/v0.1.0-alpha"><img src="https://img.shields.io/badge/Prysai%20LLM%20Playbook-v0.1.0--alpha-1A365D?style=flat-square" alt="Prysai LLM Playbook v0.1.0-alpha release" /></a>
+  <a href="https://github.com/uuzzrm/uuzzrm/actions/workflows/update-account-stars.yml"><img src="https://img.shields.io/badge/account%20stars-daily%20history-1A365D?style=flat-square" alt="Account star history refreshed daily" /></a>
+</p>
+
+<sub>Each badge links to public evidence. The PR count is a verified snapshot from 2026-08-20 and will change as work is merged.</sub>
+
 ## Building with Prysai
 
 <table>
