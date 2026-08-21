@@ -3,48 +3,59 @@
 </div>
 
 <p align="center">
-  <a href="https://prysai.com"><strong>Prysai Lab</strong></a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#open-source-contributions">Contributions</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#core-projects">Core projects</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://prysai.com"><strong>Prysai</strong></a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#selected-contributions">Selected work</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#working-set">Working set</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#account-star-history">Star history</a>
 </p>
 
-## About
-
-I build and inspect AI systems that hold up beyond the demo: agents, retrieval, evaluation, and tool use in real developer workflows.
-
-My background includes six years in network operations and four years as an independent developer, overlapping within the same broader period. This combination informs my current scope across operational continuity, technical implementation, and delivery coordination.
-
-Since 2024, I have also been developing full-quantization training and fine-tuning workflows for image AI models.
-
-<p><sub>AI agents · retrieval · evaluation · developer tools · reliable delivery</sub></p>
-
-## Current direction
-
-I work through the full agent engineering loop: choose the right model and context, connect tools safely, measure quality and failure modes, and turn what works into repeatable workflows.
-
-The standard is simple: fewer impressive demos, more systems that can be tested, understood, and improved.
-
-## Building with Prysai
-
-[Prysai](https://prysai.com) is my studio for product experiments and practical work around AI systems and developer tools—small, testable pieces designed to be inspected, measured, and reused.
-
 <table>
   <tr>
-    <td>
-      <sub>FLAGSHIP · EVIDENCE-LED LEARNING SYSTEM</sub><br />
-      <a href="https://github.com/Prysai/Prysai-LLM-Playbook"><strong>Prysai LLM Playbook</strong></a><br /><br />
-      A public, six-language learning and practice system for reliable work with LLMs, Codex, skills, tools, and agent workflows. It pairs concepts with observable labs, acceptance checks, and source boundaries.<br /><br />
-      <a href="https://github.com/Prysai/Prysai-LLM-Playbook">repository</a> · <a href="https://docs.prysai.com/llm-playbook/">documentation</a> · <a href="https://github.com/Prysai/Prysai-LLM-Playbook/releases/tag/v0.1.0-alpha">v0.1.0-alpha</a>
+    <td width="62%" valign="top">
+      <sub>RUIMING ZHAO · UZZRM</sub><br /><br />
+      I build and inspect AI systems that hold up beyond the demo: agents, retrieval, evaluation, and tool use in real developer workflows.<br /><br />
+      The standard is simple: fewer impressive demos, more systems that can be tested, understood, and improved.
+    </td>
+    <td width="38%" valign="top">
+      <sub>WORKING FOCUS</sub><br /><br />
+      <strong>AI agents</strong><br />
+      <strong>Developer tools</strong><br />
+      <strong>Reliable delivery</strong><br /><br />
+      <sub>Network operations · independent development · image-model training and fine-tuning</sub>
     </td>
   </tr>
 </table>
 
-<sub>Public development candidate: the structure and checks are available to inspect; broader learner validation and independent review remain in progress.</sub>
+<sub>Six years in network operations and four years as an independent developer inform the work. Since 2024, this has also included full-quantization training and fine-tuning workflows for image AI models.</sub>
 
-## Open-source contributions
+## Building with Prysai
 
-A selective record of changes that made it into other people's codebases, docs, and releases. Each entry links directly to the merged work.
+<table>
+  <tr>
+    <td width="28%" valign="top"><sub>PUBLIC FLAGSHIP</sub><br /><br /><a href="https://github.com/Prysai/Prysai-LLM-Playbook"><strong>Prysai LLM<br />Playbook</strong></a></td>
+    <td width="72%" valign="top">An evidence-led, six-language learning and practice system for reliable work with LLMs, Codex, skills, tools, and agent workflows.<br /><br /><a href="https://github.com/Prysai/Prysai-LLM-Playbook">repository</a> · <a href="https://docs.prysai.com/llm-playbook/">documentation</a> · <a href="https://github.com/Prysai/Prysai-LLM-Playbook/releases/tag/v0.1.0-alpha">v0.1.0-alpha</a><br /><br /><sub>Public development candidate. Structure and checks are inspectable; learner validation and independent review remain in progress.</sub></td>
+  </tr>
+</table>
+
+## Selected contributions
+
+A curated, evidence-first record of changes accepted into other projects. The full directory stays available below.
+
+<table>
+  <tr>
+    <td width="50%" valign="top"><sub>AGENT RUNTIME</sub><br /><br /><a href="https://github.com/microsoft/agent-framework"><strong>Microsoft Agent Framework</strong></a><br /><br />Telemetry configuration, skill-script behavior, prompt-cache usage, and operational visibility.<br /><br /><a href="https://github.com/microsoft/agent-framework/pull/7695">latest merged PR</a></td>
+    <td width="50%" valign="top"><sub>RELIABILITY</sub><br /><br /><a href="https://github.com/nullcache/corecoder-ts"><strong>corecoder-ts</strong></a><br /><br />Cancellation, timeouts, context accounting, protocol edge cases, and CLI contracts.<br /><br /><a href="https://github.com/nullcache/corecoder-ts/pull/7">latest merged PR</a></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><sub>SAFETY &amp; OPERATIONS</sub><br /><br /><a href="https://github.com/oomol-lab/open-connector"><strong>Open Connector</strong></a><br /><br />Connector lifecycle support and redaction that keeps credentials out of run logs.<br /><br /><a href="https://github.com/oomol-lab/open-connector/pull/342">latest merged PR</a></td>
+    <td width="50%" valign="top"><sub>LANGUAGE ANALYSIS</sub><br /><br /><a href="https://github.com/squid-protocol/gitgalaxy"><strong>GitGalaxy</strong></a><br /><br />Parser correctness across TypeScript, C#, C++, and Go edge cases.<br /><br /><a href="https://github.com/squid-protocol/gitgalaxy/pull/1764">latest merged PR</a></td>
+  </tr>
+</table>
+
+<details>
+<summary><strong>Browse the complete merged contribution directory</strong></summary>
+
+<br />
 
 <table>
   <tr>
@@ -114,6 +125,8 @@ A selective record of changes that made it into other people's codebases, docs, 
 
 <sub>Every entry above links to a public pull request confirmed as merged into its upstream repository.</sub>
 
+</details>
+
 <!--
 Maintenance format for future entries:
 1. Confirm the upstream pull request has a non-empty merged_at value.
@@ -122,9 +135,9 @@ Maintenance format for future entries:
 Only add an entry after the upstream PR is actually merged.
 -->
 
-## Core projects
+## Working set
 
-A focused working set of upstream projects I study, use, or contribute to. The selection is about technical leverage, not repository size.
+A focused upstream working set. These are study and contribution paths, not claims of original ownership.
 
 <table>
   <tr>
@@ -171,8 +184,6 @@ A focused working set of upstream projects I study, use, or contribute to. The s
   </tr>
 </table>
 
-<sub>These links point to upstream projects and my forks. They are study and contribution paths, not claims of original ownership.</sub>
-
 ## Account star history
 
 One account-level signal: the total stars received by all public repositories over time. It is a trend for the account, not the star count of any single project.
@@ -187,10 +198,6 @@ One account-level signal: the total stars received by all public repositories ov
 
 <sub>All public repositories are included · forks contribute only their own stars · refreshed daily by <a href="https://github.com/uuzzrm/uuzzrm/actions/workflows/update-account-stars.yml">GitHub Actions</a>.</sub>
 
-## Current interests
-
-<p><code>AI agents</code> · <code>RAG</code> · <code>LLM evaluation</code> · <code>MCP</code> · <code>developer tools</code> · <code>Codex workflows</code></p>
-
 <hr />
 
-<p align="center"><sub>Building in public, one reliable workflow at a time.</sub></p>
+<p align="center"><sub>AI agents · retrieval · evaluation · MCP · developer tools · reliable workflows</sub></p>
