@@ -70,8 +70,6 @@
 
 <p>
   <a href="https://github.com/uuzzrm?tab=followers"><img src="https://img.shields.io/github/followers/uuzzrm?label=followers&style=flat-square&color=1A365D" alt="GitHub followers" /></a>
-  <a href="https://github.com/uuzzrm?tab=repositories"><img src="https://img.shields.io/badge/63%20public%20repos-GitHub-1A365D?style=flat-square&logo=github&logoColor=white" alt="63 public GitHub repositories as of 2026-08-20" /></a>
-  <a href="#selected-contributions"><img src="https://img.shields.io/badge/72%20external%20PRs-merged-1A365D?style=flat-square" alt="72 verified external merged pull requests as of 2026-08-20" /></a>
   <a href="https://github.com/uuzzrm"><img src="https://img.shields.io/badge/on%20GitHub-since%202026--03-1A365D?style=flat-square&logo=github&logoColor=white" alt="On GitHub since March 2026" /></a>
   <a href="https://github.com/uuzzrm/uuzzrm/actions/workflows/update-account-stars.yml"><img src="https://img.shields.io/badge/account%20stars-daily%20history-1A365D?style=flat-square" alt="Account star history refreshed daily" /></a>
 </p>
@@ -86,7 +84,7 @@
   <a href="https://huggingface.co/Prysai"><img src="https://img.shields.io/badge/Prysai-Hugging%20Face-1A365D?style=flat-square&logo=huggingface&logoColor=white" alt="Prysai on Hugging Face" /></a>
 </p>
 
-<sub>Account counts are verified snapshots from 2026-08-20, except dynamic GitHub follower and Playbook-star badges. Every badge links to its public source.</sub>
+<sub>Follower and Playbook-star badges update from their public sources. Every badge links to its public source.</sub>
 
 ## Building with Prysai
 
